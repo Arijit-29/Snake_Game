@@ -1,0 +1,30 @@
+#gameContainer{
+    background-color:  rgb(83, 195, 143);
+    height:60vh;
+    width:45vw;
+    border: 5px blue solid;
+    border-radius: 18px;
+    box-shadow: 5px 10px 8px black;
+}
+#score{
+    text-align: center;
+    font-family:"Permanent Marker",cursive;
+    font-size: 50px;
+}
+#reset{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    color: red;
+    font-size:xx-large;
+    font-weight: 600;
+}
+body{
+    background-image: url('src/snake.jpg');
+    background-size: 100vw 100vh;
+}
+#board{
+    height: 100%;
+    width:100%;
+}
